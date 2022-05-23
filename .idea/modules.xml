@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/mad21-practical-2---android-activity-ngrayzin.iml" filepath="$PROJECT_DIR$/.idea/mad21-practical-2---android-activity-ngrayzin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/mad21-practical-2---android-activity-ngrayzin.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/mad21-practical-2---android-activity-ngrayzin.app.iml" />
     </modules>
   </component>
 </project>

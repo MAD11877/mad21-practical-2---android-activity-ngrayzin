@@ -13,31 +13,20 @@ import java.util.EventListener;
 
 public class MainActivity extends AppCompatActivity {
 
-    User user = new User("rz", "desc", 1, false);
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-    }
-
-
-
-    public void followfunction(View view)
-    {
+        User user = new User("rz", "desc", 1, false);
         Button button = (Button)findViewById(R.id.button2);
         user.followed = !user.followed;
-        if(user.followed)
-        {
-            button.setText("UNFOLLOW");
-        }
-        else
-        {
-            button.setText("FOLLOW");
-        }
+        button.setText(user.followed ? "UNFOLLOW": "FOLLOW");
 
     }
+
+
 
 
 }
